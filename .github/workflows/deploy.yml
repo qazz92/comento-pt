@@ -7,7 +7,7 @@ on:
 
 env:
   SHA: ${{ github.sha }}
-  ECR_REPOSITORY: 'nestjs'
+  ECR_REPOSITORY: 'comento-pt-nestjs'
 
 jobs:
   test:
@@ -85,8 +85,9 @@ jobs:
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
           service: nestjs
-          cluster: comento-pt-nestjs
+          cluster: comento-pt
           wait-for-service-stability: false
+
 
 
 
