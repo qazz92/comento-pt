@@ -27,7 +27,7 @@
           "hardLimit": 65535
         }
       ],
-      "name": "nestjs",
+      "name": "nestjs-x86",
       "essential": true
     }
   ],
