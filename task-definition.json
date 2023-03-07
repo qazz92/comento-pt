@@ -3,11 +3,11 @@
   "taskRoleArn": "",
   "containerDefinitions": [
     {
-      "image": "test",
+      "image": "",
       "logConfiguration": {
         "logDriver": "awslogs",
         "options": {
-          "awslogs-group": "/ecs/alpha-nestjs",
+          "awslogs-group": "/ecs/comento-pt-nestjs-230307",
           "awslogs-region": "ap-northeast-2",
           "awslogs-stream-prefix": "ecs"
         }
@@ -36,6 +36,6 @@
   ],
   "networkMode": "awsvpc",
   "cpu": "256",
-  "memory" : "512",
-  "family": "alpha-nestjs"
+  "memory": "512",
+  "family": "comento-pt-nestjs-230307"
 }

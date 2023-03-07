@@ -15,8 +15,8 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    it('should return "Hello World! - ECS"', () => {
-      expect(appController.getHello()).toBe('Hello World! - ECS');
+    it('should return "Hello World! - Ver 0.2"', () => {
+      expect(appController.getHello()).toBe('Hello World! - Ver 0.2');
     });
   });
 });
