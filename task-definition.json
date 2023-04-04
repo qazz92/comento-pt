@@ -7,7 +7,7 @@
       "logConfiguration": {
         "logDriver": "awslogs",
         "options": {
-          "awslogs-group": "/ecs/comento-pt-nestjs-230307",
+          "awslogs-group": "/ecs/comento-pt-nestjs-230404",
           "awslogs-region": "ap-northeast-2",
           "awslogs-stream-prefix": "ecs"
         }
@@ -37,5 +37,5 @@
   "networkMode": "awsvpc",
   "cpu": "256",
   "memory": "512",
-  "family": "comento-pt-nestjs-230307"
+  "family": "comento-pt-nestjs-230404"
 }
